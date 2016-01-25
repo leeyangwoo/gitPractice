@@ -11,6 +11,6 @@ git add .
 git commit -m "message"
 
 (git remote add origin https://github.com/username/project)
-(git remove -v)
+(git remote -v)
 
 git push origin master
