@@ -46,3 +46,11 @@ git clone
 :Fetch로 local로 가져와 Merge
 
 git pull
+
+
+
+
+
+
+
+오늘날짜는 1월 28일
