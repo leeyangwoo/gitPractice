@@ -2,48 +2,48 @@
 
 
 
--ÃÊ±â¼³Á¤
+-ì´ˆê¸°ì„¤ì •
 
 git init
 
-git configure --global user.name "{{username}}"
-git configure --global user.email "{{userEmail}}"
+git config --global user.name "{{username}}"
+git config --global user.email "{{userEmail}}"
 
 
 
--»óÅÂÈ®ÀÎ
+-ìƒíƒœí™•ì¸
 
 git status
 
 
 
--ÄÚµå Ãß°¡
+-ì½”ë“œ ì¶”ê°€
 
 git add .
 
-git commit -m "message"
+git commit -m "[ë©”ì„¸ì§€ ë‚´ìš©]"
 
-git push origin master
+git push origin [ë¸Œëžœì¹˜ ì´ë¦„:master]
 
 
 
--Remote¼³Á¤
+-Remoteì„¤ì •
 
 git remote add origin https://github.com/username/project
 git remote -v
 
 
 
--ÄÚµå º¹»ç
-:Fork->Github³»¿¡¼­ ÀúÀå¼Ò º¹»ç
-:Clone->Remote¸¦ Local·Î º¹»ç
+-ì½”ë“œ ë³µì‚¬
+:Fork->Githubë‚´ì—ì„œ ì €ìž¥ì†Œ ë³µì‚¬
+:Clone->Remoteë¥¼ Localë¡œ ë³µì‚¬
 
 git clone
 
 
 
--ÄÚµå º¯°æµÈ °Í °¡Á®¿À±â
-:Fetch·Î local·Î °¡Á®¿Í Merge
+-ì½”ë“œ ë³€ê²½ëœ ê²ƒ ê°€ì ¸ì˜¤ê¸°
+:Fetchë¡œ localë¡œ ê°€ì ¸ì™€ Merge
 
 git pull
 
@@ -53,6 +53,6 @@ git pull
 
 
 
-¿À´Ã³¯Â¥´Â 1¿ù 28ÀÏ
+ì˜¤ëŠ˜ë‚ ì§œëŠ” 1ì›” 28ì¼
 
-Ãß°¡ ÇØº¸±â
+ì¶”ê°€ í•´ë³´ê¸°
