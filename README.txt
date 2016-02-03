@@ -6,8 +6,8 @@
 
 git init
 
-git config --global user.name "{{username}}"
-git config --global user.email "{{userEmail}}"
+git config --global user.name [username]
+git config --global user.email [useremail]
 
 
 
@@ -45,7 +45,7 @@ git clone
 -코드 변경된 것 가져오기
 :Fetch로 local로 가져와 Merge
 
-git pull
+git pull origin [브랜치 이름:master]
 
 
 
