@@ -56,3 +56,11 @@ git pull origin [브랜치 이름:master]
 오늘날짜는 1월 28일
 
 추가 해보기
+
+---------------------------------------------
+
+git submodule init	<-- git clone 하기 전에 필요하다고 함
+git submodule update	<-- 정확한 의미는 찾는 중
+(http://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules)
+
+git clone --recursive git://github.com/laayangwoo/gitPratice.git
